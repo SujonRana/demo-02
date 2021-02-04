@@ -1,0 +1,125 @@
+body{
+    margin: 0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+/* header css star */
+
+.logo_menu_area{
+    overflow: hidden;
+}
+.logo_area {
+    width: 20%;
+    float: left;
+}
+.logo_area p{
+   color:#6c9894;
+    font-size: 40px;
+    font-weight: bold;
+    
+}
+.main_area{
+    width: 80%;
+    overflow: hidden;
+}
+.menu_area ul{
+    float: right;
+}
+.menu_area ul li{
+    float: left;
+    padding: 12px 30px;
+    background-color: #6c9894;
+    margin-top: 28px;
+
+}
+.menu_area ul li:hover{
+    background-color: #497571;
+}
+.image_area{
+    background-image: url("images/1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 50%;
+    height: 277px;
+    float: left;
+}
+.image_area:hover{
+    height:300px;
+}
+.header_content_area{
+    width: 50%;
+    text-align: center;
+    margin: 130px 0px;
+    overflow: hidden;
+}
+.header_content h2{
+    color: #497571;
+    font-size: 50px;
+    font-weight: bold;
+}
+.header_content p{
+    color: #6e6e6e;
+    font-size: 20px;
+    width: 80%;
+    margin:auto;
+}
+.section-01{
+    background-color:#497571;
+    color: white;
+    text-align: center;
+    padding: 80px 0px;
+    overflow: hidden;
+}
+.s01_content_top h2{
+    font-size: 50px;
+    margin: 0px;
+    font-weight: bold;
+}
+.s01_content_top p{
+    font-size: 20px;
+    width: 60%;
+    margin: auto;
+}
+.box{
+    width: 31%;
+    margin-right: 2%;
+    float: left;
+    margin-top: 50px;
+}
+.box img:hover{
+    box-shadow: 0px 0px 10px white;
+}
+/* footer area start */
+.footer_area{
+        padding: 80px 0px;
+        overflow: hidden;
+}
+
+.fooder_box{
+        width:15%;
+        margin-left: 2%;
+        float: left;
+        color: #497571;
+            
+}
+.footer_box_1st{
+    width: 47%;
+}
+.fooder_box p{
+    text-align: justify;
+    padding: 20px 0px;
+}
+    
+    
+        /* footer area end */
